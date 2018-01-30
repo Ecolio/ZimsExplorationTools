@@ -12,6 +12,7 @@ suppressMessages(wdpathGeneral <- choose.dir(getwd(), "Choose a suitable folder"
 setwd(wdpathGeneral)
 filesList <- list.files(wdpathGeneral)
 print(filesList, row.names=T)
+
 setwd("..")
 parent <- getwd()
 # functions
